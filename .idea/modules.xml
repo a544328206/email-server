@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/email-server.iml" filepath="$PROJECT_DIR$/email-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/email-server-consumer/email-server-consumer.iml" filepath="$PROJECT_DIR$/email-server-consumer/email-server-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/email-server-productor/email-server-productor.iml" filepath="$PROJECT_DIR$/email-server-productor/email-server-productor.iml" />
+    </modules>
+  </component>
+</project>
