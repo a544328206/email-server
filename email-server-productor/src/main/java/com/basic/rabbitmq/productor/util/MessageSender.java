@@ -1,12 +1,10 @@
 package com.basic.rabbitmq.productor.util;
 
 import com.basic.rabbitmq.productor.listener.MqConfirmListener;
-import com.basic.rabbitmq.productor.model.SendMessage;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.MessageProperties;
-import org.apache.coyote.http2.ByteUtil;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 

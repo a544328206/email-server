@@ -4,7 +4,6 @@ package com.baisc.rabbitmq.test;
  * Created by sdc on 2017/7/5.
  */
 
-import com.basic.rabbitmq.service.impl.EmailServiceImpl;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

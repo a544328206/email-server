@@ -1,12 +1,9 @@
 package com.basic.rabbitmq.productor.service.impl;
 
-import com.basic.rabbitmq.productor.model.SendMessage;
 import com.basic.rabbitmq.productor.service.EmailService;
 import com.basic.rabbitmq.productor.util.MessageSender;
-import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 

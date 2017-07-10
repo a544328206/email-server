@@ -2,7 +2,6 @@ package com.basic.rabbitmq.productor.listener;
 
 import com.basic.rabbitmq.productor.model.SendMessage;
 import com.rabbitmq.client.ConfirmListener;
-import org.springframework.stereotype.Service;
 
 import static java.util.Collections.synchronizedSortedMap;
 

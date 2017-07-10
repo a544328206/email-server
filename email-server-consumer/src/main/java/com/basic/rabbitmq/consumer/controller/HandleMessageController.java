@@ -1,12 +1,10 @@
-package com.basic.rabbitmq.controller;
+package com.basic.rabbitmq.consumer.controller;
 
-import com.alibaba.fastjson.JSONObject;
-import com.basic.rabbitmq.constant.WebStatusEnum;
-import com.basic.rabbitmq.model.ResponseVo;
-import com.basic.rabbitmq.service.EmailService;
+import com.basic.rabbitmq.consumer.constant.WebStatusEnum;
+import com.basic.rabbitmq.consumer.model.ResponseVo;
+import com.basic.rabbitmq.consumer.service.SendEmailService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.Resource;
 
@@ -15,11 +13,11 @@ import javax.annotation.Resource;
  * Created by sdc on 2017/7/5.
  */
 @Controller
-//@RequestMapping(value = "/email")
+@RequestMapping(value = "/email")
 public class EmailController extends BaseController{
 
-    @Resource(name = "emailService")
-    private EmailService emailService;
+//    @Resource(name = "emailService")
+//    private SendEmailService emailService;
 
     @RequestMapping(value="/registration1", method = RequestMethod.GET)
     public ResponseVo<?> sendEmail() throws Exception {
