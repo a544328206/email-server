@@ -8,6 +8,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 /**
+ * 提取出来一个类，用来作为controller层的父类，统一的返回格式。
+ *
  * Created by sdc on 2017/7/6.
  */
 public class BaseController {

@@ -1,0 +1,8 @@
+D:\workspace\email-server\email-server-productor\src\main\java\com\basic\rabbitmq\productor\controller\BaseController.java
+D:\workspace\email-server\email-server-productor\src\main\java\com\basic\rabbitmq\productor\controller\EmailController.java
+D:\workspace\email-server\email-server-productor\src\main\java\com\basic\rabbitmq\productor\service\impl\EmailServiceImpl.java
+D:\workspace\email-server\email-server-productor\src\main\java\com\basic\rabbitmq\productor\config\RabbitMqConfig.java
+D:\workspace\email-server\email-server-productor\src\main\java\com\basic\rabbitmq\productor\application\Application.java
+D:\workspace\email-server\email-server-productor\src\main\java\com\basic\rabbitmq\productor\service\EmailService.java
+D:\workspace\email-server\email-server-productor\src\main\java\com\basic\rabbitmq\productor\model\ResponseVo.java
+D:\workspace\email-server\email-server-productor\src\main\java\com\basic\rabbitmq\productor\constant\WebStatusEnum.java

@@ -3,6 +3,8 @@ package com.basic.rabbitmq.productor.model;
 import java.io.Serializable;
 
 /**
+ * 定义统一的返回格式，用于和前端一起沟通
+ *
  * Created by sdc on 2017/7/7.
  */
 public class ResponseVo<T> implements Serializable {

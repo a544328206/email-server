@@ -9,7 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
  * Created by sdc on 2017/7/5.
  */
 @SpringBootApplication
-@ComponentScan(basePackages = { "com.basic" })
+@ComponentScan(basePackages = { "com.basic.rabbitmq.productor" })
 public class Application {
 
     public static void main(String[] args) {

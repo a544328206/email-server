@@ -1,0 +1,8 @@
+com\basic\rabbitmq\productor\config\RabbitMqConfig.class
+com\basic\rabbitmq\productor\controller\BaseController.class
+com\basic\rabbitmq\productor\model\ResponseVo.class
+com\basic\rabbitmq\productor\constant\WebStatusEnum.class
+com\basic\rabbitmq\productor\service\impl\EmailServiceImpl.class
+com\basic\rabbitmq\productor\controller\EmailController.class
+com\basic\rabbitmq\productor\application\Application.class
+com\basic\rabbitmq\productor\service\EmailService.class
